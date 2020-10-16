@@ -6,11 +6,7 @@ import Tree
 
 
 
-main
-  = putStrLn $ unlines
-      [ declaration
-      , hello
-      ]
+main = putStrLn "Hello World :-)"
 
 
 {-

@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "C:\\Users\\Aidan\\Desktop\\College work\\Third Year II\\Software Engineering\\Programming\\Haskell LCA\\.stack-work\\install\\b6e4682d\\bin"
-libdir     = "C:\\Users\\Aidan\\Desktop\\College work\\Third Year II\\Software Engineering\\Programming\\Haskell LCA\\.stack-work\\install\\b6e4682d\\lib\\x86_64-windows-ghc-8.10.2\\Haskell-LCA-0.1.0.0-4BmVCbzmLZT8v1ZiV8f6AN"
+libdir     = "C:\\Users\\Aidan\\Desktop\\College work\\Third Year II\\Software Engineering\\Programming\\Haskell LCA\\.stack-work\\install\\b6e4682d\\lib\\x86_64-windows-ghc-8.10.2\\Haskell-LCA-0.1.0.0-Gfu2u9eim2kALpSm6bdC5G"
 dynlibdir  = "C:\\Users\\Aidan\\Desktop\\College work\\Third Year II\\Software Engineering\\Programming\\Haskell LCA\\.stack-work\\install\\b6e4682d\\lib\\x86_64-windows-ghc-8.10.2"
 datadir    = "C:\\Users\\Aidan\\Desktop\\College work\\Third Year II\\Software Engineering\\Programming\\Haskell LCA\\.stack-work\\install\\b6e4682d\\share\\x86_64-windows-ghc-8.10.2\\Haskell-LCA-0.1.0.0"
 libexecdir = "C:\\Users\\Aidan\\Desktop\\College work\\Third Year II\\Software Engineering\\Programming\\Haskell LCA\\.stack-work\\install\\b6e4682d\\libexec\\x86_64-windows-ghc-8.10.2\\Haskell-LCA-0.1.0.0"
