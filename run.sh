@@ -1,1 +1,2 @@
 stack build
+stack test

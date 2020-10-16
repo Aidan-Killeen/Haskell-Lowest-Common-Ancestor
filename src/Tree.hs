@@ -42,15 +42,18 @@ delete (Node t1 v t2) x
 deleteX :: (Ord a) => Tree a -> Tree a 
 deleteX (Node Nil v t2) = t2
 deleteX (Node t1 v Nil) = t1
-deleteX (Node t1 v t2) = (Node t1 v2 t2)                            --(delete t2 v2)) adjust this so that 
-    where 
-        v2 = leftistElement t2
-        t2 = delete t2 v2                                           --check if this solves it all
+deleteX (Node t1 v t2) = (Node left v2 t2)   --(Node t1 v2 t3)                            
+    where                 --   where 
+        (v2, left) = (maxElement(t1),(deleteMax t1))                --       (t3,v2) = leftistElement t2
 
--- Return leftist element of tree (is used on subtree)
-leftistElement :: (Ord a) => Tree a -> a
-leftistElement (Node Nil v _) = v                                   -- need to make Node = right node
-leftistElement (Node t1 _ _) = leftistElement t1
+
+maxElement :: (Ord a) => Tree a -> a
+maxElement (Node t1 v Nil) = v           -- need to get right tree of leftest
+maxElement (Node t1 v t2) = maxElement t2
+
+deleteMax :: (Ord a) => Tree a -> Tree a
+deleteMax (Node t1 v Nil) = t1
+deleteMax (Node t1 v t2) = (Node t1 v (deleteMax t2))
 
 
 
