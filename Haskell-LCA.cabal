@@ -30,7 +30,7 @@ executable Haskell-LCA
   main-is:             Main.hs
   build-depends:       base 
   -- >=4.14 && <4.15
-  other-modules:    Tree
+  other-modules:    Tree, LCA
   -- other-extensions:
   
   hs-source-dirs:      src/
@@ -54,4 +54,4 @@ test-suite HaskellLCA
 
   hs-source-dirs: test, src
   default-language: Haskell2010
-  other-modules:  Tree
+  other-modules:  Tree, LCA

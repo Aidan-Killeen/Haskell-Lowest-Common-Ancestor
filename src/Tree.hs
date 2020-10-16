@@ -6,21 +6,6 @@ module Tree where
 
 import qualified Data.List
 
-{- Legacy data -}
-name, idno, username :: String
-name      =  "Aidan, Killeen"  -- replace with your name
-idno      =  "16321445"    -- replace with your student id
-username  =  "killeeai"   -- replace with your TCD username
-
-
-declaration -- do not modify this
- = unlines
-     [ ""
-     , "@@@ This exercise is all my own work."
-     , "@@@ Signed: " ++ name
-     , "@@@ "++idno++" "++username
-     ]
-hello = "Hello World :-)"
 
 {- DEF data structure -}
 data (Ord a, Eq a) => Tree a = Nil | Node (Tree a) a (Tree a) 

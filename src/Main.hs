@@ -1,6 +1,7 @@
 module Main where
 
 import Tree
+import LCA
 --bst :: Tree
 --path1, path2 :: [Integer]
 
