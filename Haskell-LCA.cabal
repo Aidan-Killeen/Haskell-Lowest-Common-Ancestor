@@ -42,7 +42,7 @@ executable Haskell-LCA
 
 
 test-suite HaskellLCA
-  main-is: treeTest.hs
+  main-is: Tests.hs
   type: exitcode-stdio-1.0
   x-uses-tf: true
   build-depends:  base,
